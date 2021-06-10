@@ -44,7 +44,7 @@ describe('Testing', function (){
         //Act
         var result = fizzBuzz(30);
         //Assert
-        expect(result).toBe(expected);
+        expect(result).toBe(expected); 
     });
 
 });
