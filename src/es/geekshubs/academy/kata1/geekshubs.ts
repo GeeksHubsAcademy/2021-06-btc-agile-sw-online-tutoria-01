@@ -1,5 +1,11 @@
 
 export function fizzBuzz(input : Number) : String {
-    return "";
+    let res = "";
+
+    for (let i = 1; i <= input; i++) {
+        res += i + "\n";
+    }
+
+    return res;
 };
 
